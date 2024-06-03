@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '../Home';
 import Products from './Products';
 import AddProduct from './AddProduct';
 import ProductDetails from './ProductDetails';
@@ -21,7 +20,7 @@ function DashBoard() {
           <div className='col-10'>
             <Navbar />
             <Routes>
-              <Route path='/' element={<Home />} />
+              <Route path='/' element={<Products />} />
               <Route path='/categories' element={<Categories />} />
               <Route path='/categories/add' element={<AddCategories />} />
               <Route path='/products' element={<Products />} />

@@ -105,9 +105,6 @@ function Cart() {
                 </tr>
               </tbody>
             </table>
-            <Link to="/checkout" className="btn btn-danger text-end">
-              checkout
-            </Link>
           </>
         ) : (
           <>

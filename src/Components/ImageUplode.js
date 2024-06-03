@@ -17,10 +17,7 @@ function ImageUplode({ setUploadImage }) {
   return (
 
 <div className="mb-3">
-      {/* <input className="form-control" type="file" id="formFile"
-        onChange={(e) => setUploadImage(e.target.files[0])} /> */}
       <label htmlFor="formFile" className="form-label">Image</label>
-
       <input type='file' className="form-control" onChange={handleChnage} id="formFile" /><br/>
       {(imgs) ? <img src={imgs} height="200px" width="200px" /> : <img src="https://placehold.co/200x200/0DA487/FFF" height="200px" width="200px" />}
       </div>

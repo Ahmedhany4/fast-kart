@@ -35,9 +35,10 @@ function Footer() {
       </div>
 
       <div className='copy-right'>
-        <p>
-          Copyright {' '}<FontAwesomeIcon icon={regularIcons.faCopyright} />{`${currentYear}`} {/* Display the current year */}
-          <span>Eng.Ahmed Hany</span>
+        <p> 
+          {/* Display the current year */}
+          Copyright {' '}<FontAwesomeIcon icon={regularIcons.faCopyright} />{`${currentYear}` }  
+          <span> Eng.Ahmed Hany</span>
         </p>
       </div>
     </footer>

@@ -5,9 +5,6 @@ function Category({category }) {
 
   return (
     <>
-      {console.log(category )}
-      {/* {console.log(<FontAwesomeIcon icon="fa-solid fa-angle-right" />)} */}
-
       <div className="item">
         <div className="image">
           <img src={category .image} alt={category .title} />
