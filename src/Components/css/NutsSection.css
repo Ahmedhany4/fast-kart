@@ -1,0 +1,140 @@
+.nuts-section {
+  height: 100vh;
+  width: 80%;
+  position: relative;
+  margin: auto;
+
+}
+
+.nuts-section>h1 {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.nuts-section .image {
+  position: absolute;
+  left: 0;
+}
+
+.nuts-section .image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nuts-section .content {
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  top: 25%;
+  left: 10%;
+}
+
+.nuts-section .content h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+.nuts-section .content h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+.nuts-section .content p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.nuts-section .content .btn {
+  background-color: var(--green);
+  padding: 8px 20px;
+  color: white;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+.nuts-section .content .btn:hover {
+  background-color: #F2F1ED;
+  border: 1px solid var(--green);
+
+  color: var(--green);
+}
+
+@media (max-width:1500px) {
+  .nuts-section>h1 {
+    margin: 50px 0;
+  }
+  .nuts-section .image {
+    height: 80vh;
+  }
+  .nuts-section .image img {
+    height: 100%;
+  }
+  .nuts-section .content {
+    width: 55%;
+    top: 38%;
+  }
+  .nuts-section .content h1 {
+    font-size: 30px;
+  }
+
+  .nuts-section .content h3 {
+    font-size: 22px;
+  }
+
+  .nuts-section .content p:first-child {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width:1200px) {
+  .nuts-section .image {
+    height: 60vh;
+  }
+  .nuts-section .content {
+    width: 55%;
+    top: 25%;
+  }
+
+  .nuts-section .content h1 {
+    font-size: 20px;
+  }
+
+  .nuts-section .content h3 {
+    font-size: 16px;
+  }
+
+  .nuts-section .content p:first-child {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:750px) {
+
+  .nuts-section .image {
+    height: 50vh;
+  }
+
+  .nuts-section .content {
+    width: 55%;
+    top: 20%;
+  }
+
+  .nuts-section .content h1 {
+    font-size: 16px;
+  }
+
+  .nuts-section .content h3 {
+    font-size: 12px;
+  }
+
+  .nuts-section .content p:first-child {
+    font-size: 14px;
+  }
+
+}

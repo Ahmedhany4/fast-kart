@@ -1,0 +1,36 @@
+.footer svg {
+  margin-right: 10px;
+}
+
+.footer .contact h3{
+  margin: 30px auto;
+}
+.footer .contact p:last-child {
+  margin-left: 20px;
+}
+
+.footer .copy-right {
+  margin-top: 20px;
+}
+.footer .copy-right p{
+  padding: 20px;
+  margin: 0px auto;
+  width: 70%;
+  border-top: 1px solid #e4e2e2;
+  text-align: center;
+}
+.footer .copy-right p span {
+  font-weight: bold;
+  color: var(--green);
+  font-size: 18px;
+
+}
+
+
+@media (max-width:1200px) {
+  .footer .container .row  p.w-25 {
+    width: 60% !important;
+  }
+
+}
+

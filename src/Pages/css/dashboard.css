@@ -1,0 +1,16 @@
+.dashboard .nav {
+  background-color: var(--green);
+
+  margin: 0 -12px;
+  padding: 5px;
+}
+.dashboard .nav a {
+  color: white;
+}
+.dashboard .side-bar a {
+  color: white;
+  transition: all 0.2s;
+}
+.dashboard .side-bar a:hover {
+  padding-left: 10px;
+}

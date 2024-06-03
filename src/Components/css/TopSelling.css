@@ -1,0 +1,47 @@
+.top-selling h1 {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.top-selling .container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 30px;
+
+}
+
+.product .content .eye-btn-outline {
+  background-color: white !important;
+  color: var(--green) !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  border: 1px solid var(--green);
+  transition: all 0.2s;
+}
+
+.product .content .eye-btn-outline:hover {
+  background-color: var(--green) !important;
+  color: white !important;
+}
+
+
+@media (max-width:1500px) {
+  .top-selling .container {
+    grid-template-columns: repeat(3, auto);
+  }
+
+}
+
+@media (max-width:1200px) {
+  .top-selling .container {
+    grid-template-columns: repeat(2, auto);
+  }
+
+}
+
+@media (max-width:750px) {
+  .top-selling .container {
+    grid-template-columns: repeat(1, auto);
+  }
+}

@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: var(--green);
+  color: white;
+  height: 100vh;
+}
+
+.sidebar .logo {
+  text-align: center;
+  width: 100% !important;
+  margin: 40px 0;
+  font-size: 30px !important;
+}
+
+.sidebar .logo span {
+  font-size: 32px !important;
+  color: white !important;
+}
+
+
+@media (max-width:1000px) {
+  .sidebar {
+    width: 100% !important;
+    height: 25vh;
+  }
+
+.sidebar + .col-10 {
+  width: 100% !important;
+
+}
+.dashboard .nav {
+  margin: 0;
+}
+}

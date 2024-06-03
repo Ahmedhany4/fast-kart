@@ -1,0 +1,81 @@
+nav {
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+
+  background-color: white;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  width: 90%;
+  margin: auto;
+}
+
+
+
+nav .container .links {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+nav .container .links a {
+  text-decoration: none;
+  margin: 5px 10px;
+  color: black;
+  position: relative;
+}
+
+nav .container .links a:nth-child(6)::after {
+  content: 'New';
+  position: absolute;
+  top: -20px;
+  right: -23px;
+  padding: 5px 8px;
+  font-size: 12px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--pink);
+  color: white;
+  text-align: center;
+}
+
+nav .container .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav .container .buttons .btn {
+  border: 1px solid var(--pink);
+  padding: 8px 20px;
+  color: var(--pink);
+  margin-left: 10px;
+  border-radius: 6px
+}
+
+nav .container .buttons .btn-custam {
+  background-color: var(--pink);
+  color: white;
+}
+nav .links i {
+  margin-left: 10px;
+}
+nav .links i:first-child {
+  position: relative;
+}
+nav .cart-count {
+  position: absolute;
+  top: -12px;
+  left: 14px;
+  padding: 2px 5px;
+  border-radius: 7px;
+  color: white;
+  font-size: 13px;
+  background-color: var(--pink);
+  font-weight: bold;
+}
